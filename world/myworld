@@ -1,6 +1,6 @@
 <sdf version='1.7'>
   <world name='default'>
-    <plugin name="welcome" filename="libwelcome.dylib"/>
+    <plugin name='welcome' filename='libwelcome.dylib'/>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -92,78 +92,77 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>1826 240000000</sim_time>
-      <real_time>30 758493825</real_time>
-      <wall_time>1721883438 633309977</wall_time>
-      <iterations>30545</iterations>
+      <sim_time>1867 642000000</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1722259790 717550353</wall_time>
+      <iterations>0</iterations>
       <model name='FourWheeledRobot'>
-        <pose>1.33236 -5.34826 0.584601 -2e-06 -0 -0.000443</pose>
+        <pose>-7.45329 -7.71054 0.584604 0 0 -0.000938</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
-          <pose>1.33236 -5.34826 0.584601 -2e-06 -0 -0.000443</pose>
-          <velocity>-1e-06 0.000198 -0.003595 -0.002354 1e-06 -1.1e-05</velocity>
-          <acceleration>0.003295 0.153885 -9.80217 0.02159 -0.000283 0.001526</acceleration>
-          <wrench>0.024477 1.14328 -72.8245 0 -0 0</wrench>
+          <pose>-7.45329 -7.71054 0.584604 0 0 -0.000938</pose>
+          <velocity>-4e-06 4.4e-05 0.006207 -0.002375 3e-06 -1.3e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3'>
-          <pose>-0.192904 -7.37205 0.584605 1.55527 -0.001118 -0.000426</pose>
-          <velocity>-3.3e-05 -5e-06 0.001146 -0.003455 -2.3e-05 -1.1e-05</velocity>
-          <acceleration>-0.015419 -0.404038 -9.90343 -2.72734 0.001204 -0.000369</acceleration>
-          <wrench>-0.013752 -0.360364 -8.83293 0 -0 0</wrench>
+          <pose>-8.97956 -9.73358 0.584604 1.55528 -0.002176 -0.000905</pose>
+          <velocity>-1.8e-05 0.000399 0.011049 -0.000727 -2.4e-05 -1.1e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone'>
-          <pose>2.85584 -7.3734 0.584605 1.55527 -0.001905 -0.000413</pose>
-          <velocity>-2.3e-05 -4.5e-05 0.001138 -0.003485 -5e-05 -1.7e-05</velocity>
-          <acceleration>0.007754 -0.414509 -9.91981 -2.80736 0.001008 -0.018999</acceleration>
-          <wrench>0.006915 -0.369704 -8.84754 0 -0 0</wrench>
+          <pose>-5.93082 -9.73644 0.584604 1.55528 -0.00416 -0.000874</pose>
+          <velocity>-3.1e-05 0.000369 0.011058 -0.000678 -5.1e-05 -3e-06</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone_0'>
-          <pose>2.85763 -3.32446 0.584596 1.55527 0.002094 -0.000476</pose>
-          <velocity>2e-05 0.000135 -0.008335 -0.002598 7.5e-05 -9e-06</velocity>
-          <acceleration>-0.017354 -0.244928 -9.67226 -1.91624 0.000986 0.011079</acceleration>
-          <wrench>-0.015478 -0.218453 -8.62675 0 -0 0</wrench>
+          <pose>-5.92702 -5.6875 0.584605 1.55527 0.004469 -0.001008</pose>
+          <velocity>3.8e-05 0.00038 0.001338 -0.000682 7.4e-05 -1.7e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone_1'>
-          <pose>-0.19111 -3.32311 0.584597 1.55527 0.001778 -0.000471</pose>
-          <velocity>2.1e-05 0.000189 -0.008341 -0.002508 5.3e-05 -9e-06</velocity>
-          <acceleration>-0.002425 -0.21836 -9.68644 -1.78224 0.001014 0.018085</acceleration>
-          <wrench>-0.002162 -0.194756 -8.6394 0 -0 0</wrench>
+          <pose>-8.97576 -5.68464 0.584605 1.55527 0.003837 -0.000998</pose>
+          <velocity>2.3e-05 0.000407 0.001345 -0.000726 5.2e-05 -2.2e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='FourWheeledRobot_clone'>
-        <pose>-8.89708 -2.88478 0.584595 4e-06 0 -0.000417</pose>
+        <pose>-11.9925 -3.40138 0.584601 -2e-06 0 -0.000884</pose>
         <scale>1 1 1</scale>
         <link name='link_1'>
-          <pose>-8.89708 -2.88478 0.584595 4e-06 0 -0.000417</pose>
-          <velocity>1e-06 -0.002054 -0.005634 0.006006 -3e-06 -1e-05</velocity>
-          <acceleration>0.001386 -2.25162 -2.0391 2.07675 -0.005409 0.001106</acceleration>
-          <wrench>0.010297 -16.7283 -15.1494 0 -0 0</wrench>
+          <pose>-11.9925 -3.40138 0.584601 -2e-06 0 -0.000884</pose>
+          <velocity>0 0.000198 -0.003595 -0.002354 2e-06 -1.1e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3'>
-          <pose>-10.4223 -4.90862 0.584587 1.55528 -0.000456 -0.00041</pose>
-          <velocity>-2.4e-05 -0.00222 -0.017811 0.005125 -2.6e-05 -1e-05</velocity>
-          <acceleration>0.008946 -2.21522 -18.957 2.29666 -0.003557 0.001788</acceleration>
-          <wrench>0.007979 -1.97577 -16.9078 0 -0 0</wrench>
+          <pose>-13.5187 -5.4245 0.584605 1.55527 -0.001516 -0.000861</pose>
+          <velocity>-3.3e-05 -5e-06 0.001146 -0.003455 -2.1e-05 -1.1e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone'>
-          <pose>-7.37355 -4.90989 0.584587 1.55528 -0.000984 -0.000402</pose>
-          <velocity>-1.9e-05 -0.002256 -0.017813 0.005099 -5.3e-05 -1.3e-05</velocity>
-          <acceleration>0.004012 -2.21043 -18.9505 2.30107 -0.00351 0.005712</acceleration>
-          <wrench>0.003578 -1.97149 -16.9021 0 -0 0</wrench>
+          <pose>-10.47 -5.42719 0.584605 1.55527 -0.003139 -0.000835</pose>
+          <velocity>-2.3e-05 -4.5e-05 0.001138 -0.003485 -4.8e-05 -1.7e-05</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone_0'>
-          <pose>-7.37186 -0.860948 0.584603 1.55527 0.00109 -0.000434</pose>
-          <velocity>5e-06 -0.002448 0.006572 0.00422 1.3e-05 -9e-06</velocity>
-          <acceleration>-0.01612 -2.58285 14.9068 0.534827 -0.046045 0.000222</acceleration>
-          <wrench>-0.014377 -2.30366 13.2955 0 -0 0</wrench>
+          <pose>-10.4664 -1.37826 0.584596 1.55527 0.00353 -0.000939</pose>
+          <velocity>2.1e-05 0.000135 -0.008335 -0.002598 7.7e-05 -9e-06</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_3_clone_1'>
-          <pose>-10.4206 -0.859676 0.584603 1.55527 0.000948 -0.000432</pose>
-          <velocity>2.2e-05 -0.002425 0.006572 0.004182 3.9e-05 -3e-06</velocity>
-          <acceleration>0.000693 -2.61341 14.9133 0.407168 -0.011363 0.009034</acceleration>
-          <wrench>0.000619 -2.33092 13.3013 0 -0 0</wrench>
+          <pose>-13.5151 -1.37556 0.584597 1.55527 0.002997 -0.000931</pose>
+          <velocity>2.1e-05 0.000189 -0.008341 -0.002508 5.5e-05 -9e-06</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
         </link>
-
       </model>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
@@ -327,23 +326,13 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='table_marble_clone_2'>
-        <pose>-15 -3 0.648 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>-15 -3 0.648 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>nan nan nan nan nan nan</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <light name='sun'>
         <pose>0 0 10 0 -0 0</pose>
       </light>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-37.3363 2.03661 9.21212 -0 0.139641 -0.035807</pose>
+        <pose>-8.31953 -55.1683 35.219 -0 0.615641 1.52338</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -3335,52 +3324,6 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='table_marble_clone_2'>
-      <static>1</static>
-      <pose>-15 -3 0.648 0 -0 0</pose>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model:///table_marble/meshes/table_lightmap.dae</uri>
-              <scale>0.25 0.25 0.25</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://table_marble/meshes/table_lightmap.dae</uri>
-              <scale>0.25 0.25 0.25</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://table_marble/materials/scripts</uri>
-              <uri>model://table_marble/materials/textures</uri>
-              <name>Table/Marble_Lightmap</name>
-            </script>
-            <lighting>0</lighting>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
     <model name='FourWheeledRobot'>
       <link name='link_1'>
         <inertial>
@@ -3983,7 +3926,7 @@
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>1.33241 -5.33244 0.5 0 -0 0</pose>
-      <plugin name="fourWheeledRobotPushPlugin" filename="libfourWheeledRobotPushPlugin.dylib"/>
+      <plugin name='fourWheeledRobotPushPlugin' filename='libfourWheeledRobotPushPlugin.dylib'/>
     </model>
     <model name='FourWheeledRobot_clone'>
       <link name='link_1'>
@@ -4587,6 +4530,7 @@
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose>-8.89706 -2.87653 0.584601 -2e-06 -0 -0.000195</pose>
+      <plugin name='fourWheeledRobotClonePushPlugin' filename='libfourWheeledRobotClonePushPlugin.dylib'/>
     </model>
   </world>
 </sdf>

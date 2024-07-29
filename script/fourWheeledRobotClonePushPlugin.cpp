@@ -24,7 +24,7 @@ namespace gazebo
 
         void OnUpdate()
         {
-            this->model->SetLinearVel(ignition::math::Vector3d(3,0,0));
+            this->model->SetLinearVel(ignition::math::Vector3d(5,0,0));
         }
     };
     GZ_REGISTER_MODEL_PLUGIN(FourWheeledRobotClonePushPlugin)

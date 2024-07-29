@@ -9,4 +9,6 @@ add_library(welcome SHARED script/welcome.cpp)
 target_link_libraries(welcome ${GAZEBO_LIBRARIES})
 add_library(fourWheeledRobotPushPlugin SHARED script/fourWheeledRobotPushPlugin.cpp)
 target_link_libraries(fourWheeledRobotPushPlugin ${GAZEBO_LIBRARIES})
+add_library(fourWheeledRobotClonePushPlugin SHARED script/fourWheeledRobotClonePushPlugin.cpp)
+target_link_libraries(fourWheeledRobotClonePushPlugin ${GAZEBO_LIBRARIES})
 
